@@ -198,7 +198,6 @@ const transporter = nodemailer.createTransport({
 
 const createInventory = async (req, res) => {
   try {
-    console.log("Request Body:", req.body);
     let { userId, inventoryType, bloodGroup, quantity, organisation } = req.body;
     quantity = parseInt(quantity);
 
