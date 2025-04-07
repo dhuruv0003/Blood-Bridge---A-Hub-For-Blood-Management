@@ -15,12 +15,6 @@ const AdminHome = () => {
     { title: "Recent Donations", value: "87", icon: <FiClock className="text-2xl" />, change: "+5% this week" },
   ];
 
-  const recentActivities = [
-    { id: 1, action: "New donor registered", time: "2 minutes ago", user: "John Doe" },
-    { id: 2, action: "Blood request fulfilled", time: "15 minutes ago", units: "2 units O+" },
-    { id: 3, action: "New hospital joined", time: "1 hour ago", name: "City General Hospital" },
-    { id: 4, action: "Campaign created", time: "3 hours ago", title: "Summer Blood Drive" },
-  ];
 
   return (
     <Layout>
